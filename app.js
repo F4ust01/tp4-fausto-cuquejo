@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 app.use(morgan('dev'));
 app.use(helmet());
-app.use(cors);
+app.use(cors());
 
 app.use('/',require('./src/routes/routes'));
 

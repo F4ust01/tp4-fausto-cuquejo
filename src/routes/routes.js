@@ -1,4 +1,4 @@
-const { get, post, put, deletetp } = require('../controllers/controllers');
+const { get, post, put, deletetp } = require('../controllers/controllers.js');
 
 const router = require('express').Router();
 
